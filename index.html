@@ -1,0 +1,89 @@
+<!DOCTYPE html>                                                                     
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f4b6e5" data-react-helmet="true">
+    <title>leave = pc died.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="overlay" class="overlay" onclick="removeOverlay();">
+        <p class="glitch overlay-text">Click To Enter</p>
+    </div>
+
+    <audio id="audio-player" src="./assets/main_menu.mp3" loop></audio>
+
+<div class="blink">
+    <pre class="ascii-logo">
+███████╗██╗   ██╗██╗██╗         ██████╗  ██████╗ ███╗   ███╗ █████╗ ██╗███╗   ██╗
+██╔════╝██║   ██║██║██║         ██╔══██╗██╔═══██╗████╗ ████║██╔══██╗██║████╗  ██║
+█████╗  ██║   ██║██║██║         ██║  ██║██║   ██║██╔████╔██║███████║██║██╔██╗ ██║
+██╔══╝  ╚██╗ ██╔╝██║██║         ██║  ██║██║   ██║██║╚██╔╝██║██╔══██║██║██║╚██╗██║
+███████╗ ╚████╔╝ ██║███████╗    ██████╔╝╚██████╔╝██║ ╚═╝ ██║██║  ██║██║██║ ╚████║
+╚══════╝  ╚═══╝  ╚═╝╚══════╝    ╚═════╝  ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝
+    </pre>
+</div>
+
+
+    <div id="content">
+        <div class="section-line">
+            <span class="section-content">
+                <span class="red flicker-text2"></span>
+                <span class="section-title flicker-text1" style="letter-spacing: 0px;">0---- evilness ----0</span>
+            </span>
+        </div>
+        <div class="section-block haunted-card tilt-card">
+            <p class="pale-red text-bleed">
+                <span class="yellow" id="intro-dot">::</span>
+                The evil<span class="blink2">ness</span> drags closer to the Great Rift yet never touches; stray a breath and the dark takes the rest</span>. <span class="inline-tgs-icon" data-tgs-src="./assets/icons/030.tgs" aria-hidden="true"></span>
+            </p>
+            <p class="pale-red text-drip">
+                <span class="yellow">::</span>
+                Fall behind, and the void gnaws. <span class="blink2">Good luck  <span class="inline-tgs-icon" data-tgs-src="./assets/icons/029.tgs" aria-hidden="true"></span></span></span>
+            </p>
+        </div>
+
+        <div class="section-line">
+            <span class="section-content" style="letter-spacing: 0px;">
+                <span class="flicker-text">0----</span>
+                <span class="section-title">MEMBERS</span>
+                <span class="flicker-text">----0</span>
+            </span>
+        </div>
+        <div class="section-block member-list">
+            <p class="member-tile member-tile-evil tilt-card" data-member="evil" role="button" tabindex="0">
+                <span class="yellow" id="evil-dot">::</span>
+                <span class="atts">@</span><a href="#" class="member-trigger" data-member="evil">evil</a>
+                <span class="purple">[<a href="https://t.me/hauntedheaven">telegram</a>] [<a href="https://discord.com/users/1138769347750400054">discord</a>]</span>
+                <span class="member-hover-sticker inline-tgs-icon" data-tgs-src="./assets/icons/40.tgs" aria-hidden="true"></span>
+            </p>
+            <p class="member-tile member-tile-911 tilt-card" data-member="nineoneone" role="button" tabindex="0">
+                <span class="yellow" id="nineoneone-dot">::</span>
+                <span class="atts">@</span><a href="#" class="member-trigger" data-member="nineoneone">911</a>
+                <span class="purple">[<a href="https://t.me/CBATMAMOHTA">telegram</a>] [<a href="https://discord.com/users/402830790754435072">discord</a>]</span>
+                <span class="member-hover-sticker inline-tgs-icon" data-tgs-src="./assets/icons/013.tgs" aria-hidden="true"></span>
+            </p>
+            <p class="member-tile tilt-card" data-member="psychokim" role="button" tabindex="0">
+                <span class="yellow" id="psychokim-dot">::</span>
+                <span class="atts">@</span><a href="#" class="member-trigger" data-member="psychokim">psychokim</a>
+                <span class="purple">[<a href="https://t.me/virtualsex0wn">telegram</a>] [<a href="https://discord.com/users/1275461454820020258">discord</a>]</span>
+                <span class="member-hover-sticker inline-tgs-icon" data-tgs-src="./assets/icons/019.tgs" aria-hidden="true"></span>
+            </p>
+        </div>
+
+        <div id="member-info" class="member-info tilt-card ghost-panel"></div>
+    </div>
+
+    <div class="whisper-layer" aria-hidden="true">
+        <span>don't trust the silence</span>
+        <span>it already learned your cursor</span>
+    </div>
+
+    <div class="scanlines" aria-hidden="true"></div>
+
+    <script src="./assets/js/lottie.min.js"></script>
+    <script src="tgs-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
