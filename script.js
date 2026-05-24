@@ -1235,7 +1235,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const memberInfoData = {
     evil: {
-      name: "rapist",
+      name: "zvukiraya",
       image: "./assets/wtf.mp4",
       description: "hello.",
       track: "./assets/yoo.mp3",
